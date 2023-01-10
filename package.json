@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "@truffle/contract": "^4.6.11",
     "bulma": "^0.9.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -19,8 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "migrate": "truffle migrate --reset",
-    "console": "truffle console"
+    "t-migrate": "truffle migrate --reset",
+    "t-console": "truffle console",
+    "t-compile": "truffle compiles"
   },
   "eslintConfig": {
     "extends": [
